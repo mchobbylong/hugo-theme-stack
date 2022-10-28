@@ -69,6 +69,8 @@
 
             .article-copyright,
             .article-lastmod {
+                text-transform: unset;
+
                 a {
                     color: var(--body-text-color);
                 }
@@ -206,7 +208,7 @@
     line-height: var(--article-line-height);
 
     & > p {
-        margin: 1.5em 0;
+        margin: 1em 0;
     }
 
     h1,
@@ -231,9 +233,9 @@
 
     blockquote {
         position: relative;
-        margin: 1.5em 0;
+        margin: 0;
         border-inline-start: var(--blockquote-border-size) solid var(--card-separator-color);
-        padding: 15px calc(var(--card-padding) - var(--blockquote-border-size));
+        padding: 5px calc(var(--card-padding) - var(--blockquote-border-size));
         background-color: var(--blockquote-background-color);
 
         .cite {
@@ -269,7 +271,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 1.5em 0;
+        margin: 1em 0;
         gap: 10px;
 
         figure {
@@ -346,7 +348,7 @@
         width: 100%;
         border-collapse: collapse;
         border-spacing: 0;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
         font-size: 0.96em;
     }
 
